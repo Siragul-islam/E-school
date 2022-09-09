@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+background-color: #E5E5E5;
+font-family: 'Poppins', sans-serif;
+
+}
+/*Hero Area style start*/
+.hero-area {
+    background-color: #F0FFF0;
+    height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 24px;
+   
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #5a588e;
+}
+.nav-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #21B573;
+    padding: 10px 28px;
+    border-radius: 33px;
+    color: white;
+   text-align: center;
+   margin-left: 25px;
+}
+.hero-content {
+    padding: 120px 0px;
+}
+.hero-content h5{
+    color: #FD511A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.hero-content h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+.hero-content h1 span {
+    color: #21B573;
+}
+.hero-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color:#000000 ;
+    
+}
+.btn-custom {
+    
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #21B573;
+    padding: 10px 42px;
+    border-radius: 33px;
+    color: white;
+   text-align: center;
+   border: 2px solid black;
+  
+
+}
+/*Hero Area Style End*/
+
+
+
+/*Feature Area Style start*/
+
+.feature {
+    padding: 60px 0px;
+    
+
+}
+.feature-content {
+    background-color: #F8FFFB;
+    text-align: center;
+   padding:40px 0px 20px 0px;
+   margin: 5px;
+}
+.feature-content:hover {
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.feature-content img{
+    width: 66px;
+    height: 85px;
+    margin: 0 auto;
+}
+.feature-content h2{
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 36px;
+   color: #413960;
+    
+}
+/*Feature Area Style End*/
+
+
+
+
+
+
+/*Courses Area Style End*/
+
+
+.courses-area {
+    
+    padding: 40px 0px;
+}
+.courses-area .course-heading h2{
+    color: #413960;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.courses-area .course-content {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 0px;
+}
+.courses-area .course-content img{
+    width: 331px;
+    height: 234px;
+    margin: 41px 0px 41px 41px
+    
+}
+.courses-area .course-content h2{
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 41px;
+    
+}
+.courses-area .course-content >p {
+    margin-left: 41px;
+    color: #585859;
+}
+
+.courses-area .course-content .btn-custom{
+    margin-left: 41px;
+    border: none;
+}
+
+.bottom-text {
+    margin-right: 41px;
+}
+.bottom-text ul{
+display: flex;
+justify-content: space-between;
+}
+.bottom-text ul li p {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*Courses Area Style End*/
+
+
+/*Testimonial Area Style start*/
+
+.testimonial-area h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+}
+.testimonial-area img{
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-top: 50px;
+}
+
+
+
+
+.testimonial-area p{
+    margin: 70px 0px;
+}
+/*Testimonial Area Style End*/
+
+/*Footer Area Style start*/
+.footer-area {
+    background-color: #282531;
+    
+}
+.footer-area .mytext p {
+    color: #585859;
+    text-align: end;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #CDCDCD;
+
+}
+.listitems ul li:first-child{
+   color: white;
+}
+.listitems ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#585859 ;
+    padding-left: 20px;
+    
+}
+/*Footer Area Style End*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+    .hero-content h1{
+        font-size: 40px;
+       
+    }
+    .nav-button {
+        margin-left: 0px;
+    }
+    .courses-area .course-content img{
+        width: 270px;
+    }
+    .testimonial-area .testi-img {
+        width:120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+    
+    }
